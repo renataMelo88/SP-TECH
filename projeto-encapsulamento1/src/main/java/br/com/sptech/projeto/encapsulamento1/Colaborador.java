@@ -1,8 +1,7 @@
-
 package br.com.sptech.projeto.encapsulamento1;
 
-
 public class Colaborador {
+
     private String nomeColaborador;
     private String cargo;
     private Double salario;
@@ -11,6 +10,12 @@ public class Colaborador {
         this.nomeColaborador = nomeColaborador;
         this.cargo = cargo;
         this.salario = salario;
+    }
+    
+     public Colaborador(String nomeColaborador, String cargo) {
+        this.nomeColaborador = nomeColaborador;
+        this.cargo = cargo;
+        this.salario = 0.00;
     }
 
     public String getNomeColaborador() {
@@ -36,9 +41,13 @@ public class Colaborador {
     public void setSalario(Double salario) {
         this.salario = salario;
     }
+
+    //alt + insert (to.String)
+    @Override
+    public String toString() {
+        return "Colaborador{" + "nomeColaborador=" + nomeColaborador + ", cargo=" + cargo + ", salario=" + salario + '}';
+    }
     
     
-    
-    
-    
+
 }
