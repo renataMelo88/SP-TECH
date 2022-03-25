@@ -19,6 +19,15 @@ public class testeColaborador {
         System.out.println(colab2.getSalario());*/
         
         
+        System.out.println(colab1.toString());
+        System.out.println(colab2.toString());
+        
+        rh.promoverColaboradoR(colab2, "estagiário", 1700.00);
+        System.out.println(colab2.toString());
+        
+        
+        
+        
 
     }
 
