@@ -11,8 +11,8 @@ public class Colaborador {
         this.cargo = cargo;
         this.salario = salario;
     }
-    
-     public Colaborador(String nomeColaborador, String cargo) {
+
+    public Colaborador(String nomeColaborador, String cargo) {
         this.nomeColaborador = nomeColaborador;
         this.cargo = cargo;
         this.salario = 0.00;
@@ -47,7 +47,5 @@ public class Colaborador {
     public String toString() {
         return "Colaborador{" + "nomeColaborador=" + nomeColaborador + ", cargo=" + cargo + ", salario=" + salario + '}';
     }
-    
-    
 
 }

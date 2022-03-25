@@ -5,7 +5,7 @@ public class testeColaborador {
     public static void main(String[] args) {
         Colaborador colab1 = new Colaborador("Renata", "Analista", 10000.00);
         Colaborador colab2 = new Colaborador("julio", "Dev");
-        
+
         RecursosHumanos rh = new RecursosHumanos();
 
         /*exibindo colab1
@@ -17,13 +17,15 @@ public class testeColaborador {
         System.out.println(colab2.getNomeColaborador());
         System.out.println(colab2.getCargo());
         System.out.println(colab2.getSalario());*/
-        
-        
         System.out.println(colab1.toString());
         System.out.println(colab2.toString());
-        
+
         rh.promoverColaboradoR(colab2, "estagiário", 1700.00);
+        rh.reajustarSalario(colab2, 2000.00);
+        
         System.out.println(colab2.toString());
+        
+        System.out.println(rh);
         
         
         

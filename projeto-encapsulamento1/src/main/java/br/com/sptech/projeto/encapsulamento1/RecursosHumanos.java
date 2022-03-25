@@ -24,6 +24,15 @@ public class RecursosHumanos {
         colab3.setCargo(novoCargo);
         colab3.setSalario(novoSalario);
         totalPromovidos++;
+        
+        if (colab3.getSalario() < novoSalario) {
+            colab3.setCargo(novoCargo);
+            colab3.setSalario(novoSalario);
+            totalPromovidos++;
+            
+        }else{
+            System.out.println("Não promova pagando menos");
+        }
 
     }
 
@@ -43,5 +52,14 @@ public class RecursosHumanos {
     public void setTotalPromovidos(Integer totalPromovidos) {
         this.totalPromovidos = totalPromovidos;
     }
+    
+    
+    // TOSTRING (alt insert)
+    @Override
+    public String toString() {
+        return "RecursosHumanos{" + "totalReajuste=" + totalReajuste + ", totalPromovidos=" + totalPromovidos + '}';
+    }
+    
+    
 
 }
