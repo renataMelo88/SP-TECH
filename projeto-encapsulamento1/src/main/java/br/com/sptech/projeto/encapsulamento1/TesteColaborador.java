@@ -5,6 +5,8 @@ public class testeColaborador {
     public static void main(String[] args) {
         Colaborador colab1 = new Colaborador("Renata", "Analista", 10000.00);
         Colaborador colab2 = new Colaborador("julio", "Dev");
+        
+        RecursosHumanos rh = new RecursosHumanos();
 
         /*exibindo colab1
         System.out.println(colab1.getNomeColaborador());
