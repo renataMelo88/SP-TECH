@@ -1,0 +1,21 @@
+2022-03-31 21:09:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:35:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:36:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREAT[*] TABLE POKEMON (ID INT PRIMARY KEY AUTO_INCREMENT,NOME VARCHAR(255),TIPO VARCHAR(255)) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CREAT TABLE pokemon (id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42001-199]
+2022-04-07 17:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREAT[*] TABLE POKEMON (ID INT PRIMARY KEY AUTO_INCREMENT,NOME VARCHAR(255),TIPO VARCHAR(255)) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CREAT TABLE pokemon (id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42001-199]
+2022-04-07 17:40:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREAT[*] TABLE POKEMON (ID INT PRIMARY KEY AUTO_INCREMENT,NOME VARCHAR(255),TIPO VARCHAR(255)) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CREAT TABLE pokemon (id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42001-199]
+2022-04-07 18:08:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" already exists; SQL statement:
+CREATE TABLE pokemon (id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42101-199]
