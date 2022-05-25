@@ -6,7 +6,7 @@ public class Produto {
     private String nome;
     private String categoria;
     private Double preco;
-
+    
     public Produto(Integer id, String nome, String categoria, Double preco) {
         this.id = id;
         this.nome = nome;
@@ -45,12 +45,4 @@ public class Produto {
     public void setPreco(Double preco) {
         this.preco = preco;
     }
-
-  
-
-    @Override
-    public String toString() {
-        return "Produto{" + "preco=" + preco + '}';
-    }
-   
 }

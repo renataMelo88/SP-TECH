@@ -15,7 +15,7 @@ public class Aluno {
         this.ativo = true;
     }
 
-    public String getRa() { 
+    public String getRa() {
         return ra;
     }
 
@@ -50,5 +50,9 @@ public class Aluno {
     @Override
     public String toString() {
         return "Aluno{" + "ra=" + ra + ", nome=" + nome + ", semestre=" + semestre + ", ativo=" + ativo + '}';
+    }
+
+    Object getAtivo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

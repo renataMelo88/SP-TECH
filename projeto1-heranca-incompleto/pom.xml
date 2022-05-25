@@ -5,6 +5,7 @@
     <artifactId>projeto1-heranca-incompleto</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>01212194-renata-prova3</name>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -24,12 +25,6 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8.1</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,5 +40,4 @@
             </plugin>
         </plugins>
     </build>
-    <name>projeto1-heranca-incompleto</name>
 </project>

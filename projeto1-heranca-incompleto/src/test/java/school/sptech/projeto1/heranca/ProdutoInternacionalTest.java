@@ -9,7 +9,7 @@ class ProdutoInternacionalTest {
     @Test
     void getPrecoQuandoAcionadoEProdutoPossuiValor499999DeveRetornar799998() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99);
+                1, "Playstation 5", "videogame", 4_999.99, 10.00);
         Double precoCorretoComTaxa = 7_999.9839999999995;
         assertEquals(precoCorretoComTaxa, prdInternacional.getPreco());
     }
@@ -17,7 +17,7 @@ class ProdutoInternacionalTest {
     @Test
     void getPrecoQuandoAcionadoEProdutoPossuiValor0DeveRetornar0() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 0.0);
+                1, "Playstation 5", "videogame", 0.0, 10.00);
         Double precoCorretoComTaxa = 0.0;
         assertEquals(precoCorretoComTaxa, prdInternacional.getPreco());
     }
@@ -25,7 +25,7 @@ class ProdutoInternacionalTest {
     @Test
     public void getIdQuandoAcionadoDeveRetornarOValorDoId() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99
+                1, "Playstation 5", "videogame", 4_999.99, 10.00
         );
 
         assertEquals(1, prdInternacional.getId());
@@ -34,7 +34,7 @@ class ProdutoInternacionalTest {
     @Test
     public void getNomeQuandoAcionadoDeveRetornarOValorDoNome() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99
+                1, "Playstation 5", "videogame", 4_999.99, 10.00
         );
 
         assertEquals("Playstation 5", prdInternacional.getNome());
@@ -43,7 +43,7 @@ class ProdutoInternacionalTest {
     @Test
     public void getCategoriaQuandoAcionadoDeveRetornarOValorDaCategoria() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99
+                1, "Playstation 5", "videogame", 4_999.99, 10.00
         );
 
         assertEquals("videogame", prdInternacional.getCategoria());
@@ -52,7 +52,7 @@ class ProdutoInternacionalTest {
     @Test
     public void getPrecoQuandoAcionadoDeveRetornarOValorDoPreco() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99
+                1, "Playstation 5", "videogame", 4_999.99, 10.00
         );
 
         assertEquals(7_999.9839999999995, prdInternacional.getPreco());
@@ -61,7 +61,7 @@ class ProdutoInternacionalTest {
     @Test
     public void objetoProdutoInternacionalDeveSerHerdeiraDeProduto() {
         ProdutoInternacional prdInternacional = new ProdutoInternacional(
-                1, "Playstation 5", "videogame", 4_999.99
+                1, "Playstation 5", "videogame", 4_999.99, 10.00
         );
 
         assertInstanceOf(Produto.class, prdInternacional);
