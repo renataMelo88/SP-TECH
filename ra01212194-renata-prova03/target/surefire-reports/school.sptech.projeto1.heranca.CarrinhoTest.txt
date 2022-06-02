@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: school.sptech.projeto1.heranca.CarrinhoTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in school.sptech.projeto1.heranca.CarrinhoTest
+quandoLivrariECaixaAltaRemoverTodosOsProdutosDaCategoriaDeveRemoverOsProdutosCorrespondentes  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoLivrariECaixaAltaRemoverTodosOsProdutosDaCategoriaDeveRemoverOsProdutosCorrespondentes(CarrinhoTest.java:201)
+
+quandoIdTresMetodoFindProdutoPorIdDeveRetornarOProdutoCorrespondente  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.StackOverflowError
+
+quandoVideogameRemoverTodosOsProdutosDaCategoriaDeveRemoverOsProdutosCorrespondentes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at school.sptech.projeto1.heranca.CarrinhoTest.quandoVideogameRemoverTodosOsProdutosDaCategoriaDeveRemoverOsProdutosCorrespondentes(CarrinhoTest.java:193)
+
+quandoIdQuarentaEDoisMetodoFindProdutoPorIdDeveRetornarOProdutoCorrespondente  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.StackOverflowError
+
+quandoIdQuatroENomeGarfoMetodoUpdateNomeProdutoPeloIdDeveMudarONomeDoProdutoCorrepondente  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.StackOverflowError
+
